@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --vermelho: #e50914;
+     --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color: white;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+.container .logo{
+    
+    margin: 10px;
+    margin-top: 'main div div h3, sans-serif;'0px;
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: Impact, Haettenschweiler, 'Bebas Neue', sans-serif;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration:none;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+}
+
+header nav a:hover {
+    
+    color: #aaa;
+   
+}
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100% ), url(/img/housecards.jpg) ;
+    height: 500px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.titulo{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bot{
+    display: block;
+}
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    margin-left: 20px;
+}
+.descricao{
+    margin-left: 20px;
+}
+
+.bot{
+    margin-left: 20px;
+}
+
+.box-filme{
+    height: 50%;
+    width: 50%;
+    display: block;
+}
+
